@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/dell/saltbay/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/dell/saltbay/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
