@@ -162,8 +162,8 @@ PRODUCT_COPY_FILES += \
     vendor/dell/saltbay/proprietary/lib/parameter-framework-plugins/Audio/libuta-subsystem.so:system/lib/parameter-framework-plugins/Audio/libuta-subsystem.so \
     vendor/dell/saltbay/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
     vendor/dell/saltbay/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
-    #vendor/dell/saltbay/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    #vendor/dell/saltbay/proprietary/vendor/etc/audio_offload_effects.conf:system/vendor/etc/audio_offload_effects.conf \
+    vendor/dell/saltbay/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/dell/saltbay/proprietary/vendor/etc/audio_offload_effects.conf:system/vendor/etc/audio_offload_effects.conf \
     vendor/dell/saltbay/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/dell/saltbay/proprietary/lib/hw/gps.saltbay.so:system/lib/hw/gps.saltbay.so \
     vendor/dell/saltbay/proprietary/lib/hw/lights.saltbay.so:system/lib/hw/lights.saltbay.so
